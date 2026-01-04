@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // Toto vytvoří statickou verzi webu
   images: {
-    domains: [],
+    unoptimized: true, // Nutné pro funkčnost obrázků na GitHubu
   },
-}
+};
 
-module.exports = nextConfig
-
-
+export default nextConfig;
 
 
 
