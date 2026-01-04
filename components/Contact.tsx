@@ -66,14 +66,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-accent-blue/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Clock className="w-5 h-5 text-accent-blue" />
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Owner Info */}
           <div className="card-dark">
             <div className="flex flex-col gap-6 items-center">
@@ -135,6 +127,7 @@ export default function Contact() {
     </section>
   )
 }
+
 
 
 
