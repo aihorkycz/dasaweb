@@ -70,13 +70,6 @@ export default function Contact() {
                 <div className="w-12 h-12 bg-accent-blue/10 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Clock className="w-5 h-5 text-accent-blue" />
                 </div>
-                <div>
-                  <h4 className="font-semibold text-white mb-1">Otevírací doba</h4>
-                  <p className="text-text-light">
-                    Po-Pá: 6:00 - 21:00<br />
-                    So-Ne: 7:30 - 13:00
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -142,5 +135,6 @@ export default function Contact() {
     </section>
   )
 }
+
 
 
